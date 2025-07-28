@@ -16,7 +16,7 @@ random.seed(42)
 app = Flask(__name__)
 
 # Load the model (only one model now)
-model = load_model('model/cat_dog_neither_classifier_mobilenet.h5')  # <-- your model file
+model = load_model("model/cat_dog_neither_classifier_cleaned.h5", compile=False)  # <-- your model file
 
 class_names = ['cat', 'dog', 'neither']
 UPLOAD_FOLDER = 'static/uploads'
