@@ -3,7 +3,7 @@ from tensorflow.keras.preprocessing import image_dataset_from_directory
 import tensorflow as tf
 
 # Load model
-model = load_model('model/cat_dog_neither_classifier_mobilenet.h5')  # Updated filename
+model = load_model('model/cat_dog_neither_classifier_new.h5')  # Updated filename
 
 # Load test data
 test_dataset = image_dataset_from_directory(
