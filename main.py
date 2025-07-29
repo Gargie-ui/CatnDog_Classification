@@ -75,6 +75,6 @@ history = model.fit(
     callbacks=[early_stop, lr_reduce]
 )
 
-# Save model
-model.save('cat_dog_neither_classifier_mobilenet.keras')
-print("✅ Training complete and model saved.")
+model.save('cat_dog_neither_classifier_new.h5', save_format='h5')
+print("✅ Training complete and model saved as .h5.")
+
