@@ -2,6 +2,10 @@
 
 A deep learning web app that classifies images as **cat**, **dog**, or **neither** — powered by MobileNetV2 transfer learning and deployed with Flask.
 
+## Demo
+
+**[Try it live](https://gigishot-cat-dog-neither-classification.hf.space/)**
+
 ---
 
 ## Demo
