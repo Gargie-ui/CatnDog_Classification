@@ -5,6 +5,7 @@ A deep learning web app that classifies images as **cat**, **dog**, or **neither
 ## Demo
 
 **[Try it live](https://gigishot-cat-dog-neither-classification.hf.space/)**
+
 Upload any image → get an instant prediction with confidence score.
 
 ---
